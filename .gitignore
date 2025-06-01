@@ -1,0 +1,32 @@
+# === Kotlin / Gradle ===
+.gradle/
+build/
+out/
+
+# === IntelliJ / JetBrains IDEs ===
+.idea/
+*.iml
+
+# === OS files ===
+.DS_Store
+Thumbs.db
+
+# === Logs and temporary ===
+*.log
+*.tmp
+
+# === Environment variables ===
+.env*
+
+# === Compiled JARs / classes ===
+*.class
+*.jar
+
+# === Ktor-specific (if using embedded Netty) ===
+ktor-test-results/
+
+# === Optional: VSCode ===
+.vscode/
+
+# === Optional: macOS system files ===
+*.swp
